@@ -1,0 +1,23 @@
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: black;
+}
+
+.error h1,
+p,
+i {
+  margin: 20px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.error button {
+  width: 200px;
+  height: 40px;
+  background: red;
+  border: none;
+}
